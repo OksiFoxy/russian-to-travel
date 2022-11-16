@@ -1,0 +1,6 @@
+.cover {
+    width: 100%;
+    margin: 66px 0 64px;
+    background-image: url(../../images/cover.jpg);
+    background-repeat: no-repeat;
+}
