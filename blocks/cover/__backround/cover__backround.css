@@ -1,5 +1,25 @@
 .cover__backround {
     width: 100%;
-    background-color: #2A2C2F;
-    opacity: 0.3;
+    height: 100%;
+    max-height: 740px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../../../images/cover__background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.cover__link {
+    width: 100%;
+    display: block;
+    height: 100%;
+    position: relative;
 }

@@ -1,4 +1,5 @@
 .place__text {
+    min-width: 484px;
     grid-column: 2;
     grid-row: 2;
     display: flex;
@@ -6,9 +7,24 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-@media screen and (max-width: 769px) {
+
+@media screen and (max-width: 1279px) {
     .place__text {
+        min-width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__text {
+        min-width: 352px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__text {
+        min-width: 288px;
         margin: 0 auto;
-        max-width: calc(100% - 32px);
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

@@ -24,12 +24,3 @@
     font-weight: 700;
     font-display: swap;
   }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    src: url("Inter-Light-BETA.woff") format("woff"),
-         url("Inter-Light-BETA.woff2") format("woff2");
-    font-weight: 300;
-    font-display: swap;
-  }
