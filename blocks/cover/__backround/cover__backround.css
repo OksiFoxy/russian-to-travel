@@ -1,25 +1,37 @@
 .cover__backround {
-    width: 100%;
-    height: 100%;
-    max-height: 740px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../../../images/cover__background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    text-decoration: none;
+  width: 100%;
+  min-height: 62.5vw;
+  position: relative;
+  z-index: 0;
+  background-image: url(../../../images/cover__background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  text-decoration: none;
 }
 
-.cover__link {
-    width: 100%;
-    display: block;
-    height: 100%;
-    position: relative;
+@media screen and (min-width: 1280px) {
+  .cover__backround {
+    min-height: 740px;
+  }
 }
+
+.cover__backround::after { 
+  content: ''; 
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 1; 
+  background-color: #2A2C2F; 
+  opacity: 0.3; 
+  } 
+  
+.cover:hover .cover__backround::after {
+  opacity: 0.8; 
+} 

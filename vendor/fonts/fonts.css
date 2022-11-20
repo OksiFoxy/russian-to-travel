@@ -10,8 +10,8 @@
   @font-face {
     font-family: 'Inter';
     font-style:  normal;
-    src: url("Inter-ExtraBold.woff") format("woff"),
-         url("Inter-ExtraBold.woff2") format("woff2");
+    src: url("Inter-Black.woff") format("woff"),
+         url("Inter-Black.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
   }

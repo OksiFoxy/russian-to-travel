@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
-    .footer__item {
+  .footer__item {
     margin-bottom: 32px;
     margin-right: 0;
-}
+  }
 }
